@@ -1,7 +1,7 @@
 ﻿from random import*
 
 print('Valige raskusaste')
-print('Tase 1=>"1" Tase 2=>"2" Tase 1extra=>"3" Tase 2extra=>"4" ')
+print('Tase 1=>"1" Tase 2=>"2" Tase 1 extra=>"3" Tase 3=>"4" ')
 while True:
     tase=int(input(' '))
     if tase==1:
@@ -75,7 +75,7 @@ while True:
         for i in range(1,11):
             arv_1=randint(1,10)
             arv_2=randint(1,3)
-            c=(f'Mis on {arv_1}**{arv_2}?')
+            i=(f'Mis on {arv_1}**{arv_2}?')
             vastus=arv_1**arv_2
             print(i)
             user_vastus=int(input('vastus=>'))
